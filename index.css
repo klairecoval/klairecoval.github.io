@@ -1,0 +1,71 @@
+/*Change font to Lato,
+Set background to grey*/
+body{
+	font-family: 'Lato', sans-serif;
+	background: #F3F3F3;
+    color: #36434B;
+    letter-spacing: 2px;
+}
+
+#nav{
+    overflow: hidden;
+	position: fixed;
+    top: 0; 
+    width: 100%; 
+	background-color: #F3F3F3;
+}
+
+#nav a {
+	float: right;
+	color: #696969;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 3px solid transparent;
+}
+
+#nav a:hover{
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    color: var(--oil);
+    border-bottom: 3px solid #FFE365;
+}
+
+#nav a:active{
+    color: #FFE365;
+}
+
+.contentA, .contentC{
+    width: 900px;
+    margin: 0 auto;
+	padding-top: 20em;
+}
+
+.content{
+    text-align: center;
+	padding-top: 20em;
+	width: 900px;
+	margin: 0 auto;
+}
+
+a{
+    color: #36434B;
+    text-decoration: none;
+}
+
+#page0,#page1,#page2,#page3{
+	height: 900px;
+}
+
+.fa {
+	color: #36434B;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fa:hover{
+	-webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+	color: #89BCB3;
+}
