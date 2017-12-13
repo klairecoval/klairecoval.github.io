@@ -38,6 +38,38 @@ body{
     color: #FFE365;
 }
 
+.yello{
+	transition: 0.8s ease;
+}
+.yello:Hover {
+	transition: 0.8s ease;
+	color: #FFCD57;
+}
+.seafoam{
+	transition: 0.8s ease;
+}
+.seafoam:hover{
+	transition: 0.8s ease;
+	color: #89BCB3;
+}
+.yell2{
+	transition: 0.8s ease;
+}
+.yell2:hover{
+	transition: 0.8s ease;
+	color: #FFE365;
+}
+.coral{
+	transition: 0.8s ease;
+}
+.coral:hover{
+	transition: 0.8s ease;
+	color: #FF845B;
+}
+
+
+
+
 .contentA, .contentC{
     width: 900px;
     margin: 0 auto;
