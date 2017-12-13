@@ -23,6 +23,8 @@ body{
     text-decoration: none;
     font-weight: bolder;
     border-bottom: 3px solid transparent;
+	-webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
 }
 
 #nav a:hover{
@@ -54,7 +56,7 @@ a{
     text-decoration: none;
 }
 
-#page0,#page1,#page2,#page3{
+#page0, #page1, #page2, #page3{
 	height: 900px;
 }
 
@@ -62,10 +64,10 @@ a{
 	color: #36434B;
 	padding-right: 10px;
 	padding-left: 10px;
+	transition: color 0.8s ease;
 }
 
 .fa:hover{
-	-webkit-transition-duration: 0.8s;
-    transition-duration: 0.8s;
+	transition: color 0.8s ease;
 	color: #89BCB3;
 }
