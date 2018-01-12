@@ -1,41 +1,8 @@
-/*Change font to Lato,
-Set background to grey*/
 body{
 	font-family: 'Lato', sans-serif;
 	background: #F3F3F3;
     color: #36434B;
     letter-spacing: 2px;
-}
-
-#nav{
-    overflow: hidden;
-	position: fixed;
-    top: 0; 
-    width: 100%; 
-	background-color: #F3F3F3;
-}
-
-#nav a {
-	float: right;
-	color: #696969;
-    text-align: center;
-    padding: 1% 1%;
-    text-decoration: none;
-    font-weight: bolder;
-    border-bottom: 3px solid transparent;
-	-webkit-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-}
-
-#nav a:hover{
-    -webkit-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-    color: var(--oil);
-    border-bottom: 3px solid #FFE365;
-}
-
-#nav a:active{
-    color: #FFE365;
 }
 
 .yello{
@@ -67,30 +34,12 @@ body{
 	color: #FF845B;
 }
 
-
-
-
-.contentA, .contentC{
-    width: 900px;
-    margin: 0 auto;
-	padding-top: 20em;
-}
-
-.content{
-    text-align: center;
-	padding-top: 20em;
-	width: 900px;
-	margin: 0 auto;
-}
-
 a{
     color: #36434B;
     text-decoration: none;
 }
 
-#page0, #page1, #page2, #page3{
-	height: 900px;
-}
+
 
 .fa {
 	color: #36434B;
@@ -99,7 +48,44 @@ a{
 	transition: color 0.8s ease;
 }
 
-.fa:hover{
+.fa:hover, a:hover{
 	transition: color 0.8s ease;
 	color: #89BCB3;
+}
+
+#contents{
+	width:960px;
+    height:640px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+h2{
+	text-align: center;
+}
+
+
+#webAndCode{
+	float: left;
+    width:45%;
+    margin-top: 1em;
+	text-align: right;
+}
+
+#designAndExtras{
+	float: right;
+    width: 49%;
+    margin-top:1em;
+	text-align: left;
+}
+
+#contact{
+	width: 45%;
+	padding-top: 14em;
 }
