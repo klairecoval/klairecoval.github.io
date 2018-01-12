@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Giphy Finder</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Giphy Finder</h1>
+		</header>
+
+		<form id="searchform">
+			<!-- Search Term -->
+			<input id="searchterm" type="text" size="20" maxlength="20" autofocus value="cats" />
+
+			<!-- Max # results -->
+			<select id="limit">
+				<option value="5">5</option>
+				<option value="10" selected>10</option>
+				<option value="25">25</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+			</select>
+
+			<button type="button" id="search">Find some GIFs!
+				<br />:-)</button>
+		</form>
+
+		<div id="results">
+			<h2>Results</h2>
+			<div id="content">
+				<p>No data yet!</p>
+			</div>
+		</div>
+
+	</div>
+	<!-- call script after document finishes loading -->
+	<script src="gif-finder.js"></script>
+</body>
+</html>
