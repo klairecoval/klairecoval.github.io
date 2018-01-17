@@ -1,8 +1,8 @@
 body{
 	font-family: 'Lato', sans-serif;
 	background: #F3F3F3;
-    color: #36434B;
-    letter-spacing: 2px;
+    	color: #36434B;
+    	letter-spacing: 2px;
 }
 
 .yello{
@@ -37,6 +37,7 @@ body{
 a{
     color: #36434B;
     text-decoration: none;
+    transition: color 0.8s ease;
 }
 
 
