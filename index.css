@@ -1,92 +1,149 @@
-body{
+body {
 	font-family: 'Lato', sans-serif;
 	background: #F3F3F3;
-    	color: #36434B;
-    	letter-spacing: 1px;
+	color: #36434B;
+	letter-spacing: 1px;
 }
 
-.yello{
-	transition: 0.6s ease;
+.yello {
+	transition: 0.4s ease;
 }
+
 .yello:Hover {
-	transition: 0.6s ease;
+	transition: 0.4s ease;
 	color: #FFCD57;
 }
-.seafoam{
-	transition: 0.6s ease;
+
+.seafoam {
+	transition: 0.4s ease;
 }
-.seafoam:hover{
-	transition: 0.6s ease;
+
+.seafoam:hover {
+	transition: 0.4s ease;
 	color: #89BCB3;
 }
-.yell2{
-	transition: 0.6s ease;
+
+.yell2 {
+	transition: 0.4s ease;
 }
-.yell2:hover{
-	transition: 0.6s ease;
+
+.yell2:hover {
+	transition: 0.4s ease;
 	color: #FFE365;
 }
-.coral{
-	transition: 0.6s ease;
+
+.coral {
+	transition: 0.4s ease;
 }
-.coral:hover{
-	transition: 0.6s ease;
+
+.coral:hover {
+	transition: 0.4s ease;
 	color: #FF845B;
 }
 
-a{
-    color: #36434B;
-    text-decoration: none;
-    transition: color 0.6s ease;
+a {
+	color: #36434B;
+	text-decoration: none;
+	transition: color 0.4s ease;
 }
-
-
 
 .fa {
 	color: #36434B;
 	padding-right: 10px;
 	padding-left: 10px;
-	transition: color 0.6s ease;
+	transition: color 0.4s ease;
 }
 
-.fa:hover, a:hover{
-	transition: color 0.6s ease;
+.fa:hover,
+a:hover {
+	transition: color 0.4s ease;
 	color: #89BCB3;
 }
 
-#contents{
-	width:960px;
-    height:640px;
-    padding: 15px;
-    margin: 0 auto;
-}
-
-
-ul{
+ul {
 	list-style: none;
 	padding-left: 0px;
+	line-height: 1.4em;
 }
 
-h2{
-	text-align: center;
-}
-
-
-#webAndCode{
+#webAndCode {
 	float: left;
-    width:45%;
-    margin-top: 1em;
+	width: 49%;
+	height: 12em;
+	margin-top: 1em;
 	text-align: right;
 }
 
-#designAndExtras{
+#designAndExtras {
 	float: right;
-    width: 49%;
-    margin-top:1em;
+	width: 49%;
+	margin-top: 1em;
 	text-align: left;
 }
 
-#contact{
-	width: 45%;
-	padding-top: 28em;
+header {
+	text-align: center;
+	line-height: 0.8em;
+	margin-top: 0.8em;
+}
+
+footer {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#resume {
+	margin-top: 11.5em;
+	text-align: center;
+}
+
+.HolyGrail {
+	display: flex;
+	min-height: 90vh;
+	flex-direction: column;
+
+}
+
+.HolyGrail-body {
+	display: flex;
+	flex: 1;
+}
+
+.HolyGrail-content {
+	margin-top: 4em;
+	flex: 1;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+	flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+	order: -1;
+}
+
+.HolyGrail,
+.HolyGrail-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.HolyGrail-nav {
+	order: -1;
+}
+
+@media (min-width: 768px) {
+	.HolyGrail-body {
+		flex-direction: row;
+		flex: 1;
+	}
+	.HolyGrail-content {
+		flex: 1;
+	}
+	.HolyGrail-nav,
+	.HolyGrail-ads {
+		flex: 0 0 12em;
+	}
 }
