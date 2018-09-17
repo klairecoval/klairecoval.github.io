@@ -1,8 +1,6 @@
 body {
-	/* font-family: 'Lato', sans-serif; */
-	font-family: 'Proxima Nova', Georgia, sans-serif;
-	background: #F3F3F3;
 	color: #36434B;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -11,8 +9,8 @@ body {
 }
 
 .yello:Hover {
-	transition: 0.4s ease;
 	color: #FFCD57;
+	transition: 0.4s ease;
 }
 
 .seafoam {
@@ -29,8 +27,8 @@ body {
 }
 
 .yell2:hover {
-	transition: 0.4s ease;
 	color: #FFE365;
+	transition: 0.4s ease;
 }
 
 .coral {
@@ -38,8 +36,8 @@ body {
 }
 
 .coral:hover {
-	transition: 0.4s ease;
 	color: #FF845B;
+	transition: 0.4s ease;
 }
 
 a {
@@ -50,60 +48,59 @@ a {
 
 .fa {
 	color: #36434B;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
 	transition: color 0.4s ease;
 }
 
 .fa:hover,
 a:hover {
-	transition: color 0.4s ease;
 	color: #89BCB3;
+	transition: color 0.4s ease;
 }
 
 ul {
+	line-height: 1.4em;
 	list-style: none;
 	padding-left: 0px;
-	line-height: 1.4em;
 }
 
 #webAndCode {
 	float: left;
-	width: 49%;
 	height: 12em;
 	margin-top: 0.3em;
 	text-align: right;
+	width: 49%;
 }
 
 #designAndExtras {
 	float: right;
-	width: 49%;
 	margin-top: 0.3em;
 	text-align: left;
+	width: 49%;
 }
 
 header {
-	text-align: center;
 	line-height: 0.8em;
 	margin-top: 0.8em;
+	text-align: center;
 }
 
 footer {
-	width: 50%;
 	margin: 0 auto;
 	text-align: center;
+	width: 50%;
 }
 
 #resume {
-	margin-top: 13em;
+	margin-top: 14em;
 	text-align: center;
 }
 
 .HolyGrail {
 	display: flex;
-	min-height: 90vh;
 	flex-direction: column;
-
+	min-height: 90vh;
 }
 
 .HolyGrail-body {
@@ -112,8 +109,8 @@ footer {
 }
 
 .HolyGrail-content {
-	margin-top: 4em;
 	flex: 1;
+	margin-top: 4em;
 }
 
 .HolyGrail-nav,
@@ -137,8 +134,8 @@ footer {
 
 @media (min-width: 768px) {
 	.HolyGrail-body {
-		flex-direction: row;
 		flex: 1;
+		flex-direction: row;
 	}
 	.HolyGrail-content {
 		flex: 1;
