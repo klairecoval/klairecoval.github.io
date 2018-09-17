@@ -1,53 +1,26 @@
 body {
-	color: #36434B;
+	color: #010101;
 	font-family: 'Proxima Nova', Georgia, sans-serif;
 	letter-spacing: 1px;
 }
 
-.yello {
-	transition: 0.4s ease;
-}
-
-.yello:Hover {
-	color: #FFCD57;
-	transition: 0.4s ease;
-}
-
 .seafoam {
-	transition: 0.4s ease;
-}
-
-.seafoam:hover {
-	transition: 0.4s ease;
 	color: #89BCB3;
 }
 
-.yell2 {
-	transition: 0.4s ease;
-}
-
-.yell2:hover {
-	color: #FFE365;
-	transition: 0.4s ease;
-}
-
-.coral {
-	transition: 0.4s ease;
-}
-
-.coral:hover {
-	color: #FF845B;
-	transition: 0.4s ease;
+hr {
+	border-top: 1px dashed;
+	width: 20em;
 }
 
 a {
-	color: #36434B;
+	color: #010101;
 	text-decoration: none;
 	transition: color 0.4s ease;
 }
 
 .fa {
-	color: #36434B;
+	color: #010101;
 	padding-left: 8px;
 	padding-right: 8px;
 	transition: color 0.4s ease;
@@ -55,7 +28,7 @@ a {
 
 .fa:hover,
 a:hover {
-	color: #89BCB3;
+	color: #FFCD57;
 	transition: color 0.4s ease;
 }
 
@@ -65,17 +38,16 @@ ul {
 	padding-left: 0px;
 }
 
-#webAndCode {
+#development {
 	float: left;
-	height: 12em;
-	margin-top: 0.3em;
+	margin-top: -4em;
 	text-align: right;
 	width: 49%;
 }
 
-#designAndExtras {
+#design {
 	float: right;
-	margin-top: 0.3em;
+	margin-top: -4em;
 	text-align: left;
 	width: 49%;
 }
@@ -93,8 +65,17 @@ footer {
 }
 
 #resume {
-	margin-top: 14em;
+	margin-top: 10em;
 	text-align: center;
+}
+
+#resume a {
+	color: #89BCB3;
+}
+
+#resume a:hover {
+	color: #FFCD57;
+	transition: color 0.4s ease;
 }
 
 .HolyGrail {
