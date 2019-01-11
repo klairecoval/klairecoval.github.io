@@ -1,0 +1,187 @@
+* {
+    margin: 0 auto;
+}
+
+html, body, #about, #portfolio, #contact, #home {
+	height: auto;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about, #portfolio, #contact, #home {
+	padding-top: 2em;
+}
+
+#about, #portfolio, #contact {
+    background-color:#fff;
+}
+
+#about, #portfolio {
+	border-bottom: 1px dashed black;
+	width: 90%;
+}
+
+#contact {
+	width: 90%;
+}
+
+#design a, #development a, #contactContent a {
+	color: #010101;
+	text-decoration: none;
+	transition: color 0.4s ease;
+}
+
+.fa {
+	color: #010101;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+header {
+	position: fixed;
+	top:0px;
+	left:0px;
+	background:transparent; 
+	height: 40px; 
+	width: 100%;
+}
+
+#mainNav {
+    float: right;
+	margin-top: 15px;
+    word-spacing:20px;
+	margin-right: 1em;
+}
+
+#mainNav a {
+	font-weight: 600;
+	border-bottom: 0px solid #89BCB3;
+	color: #000;
+	text-decoration: none;
+	transition: border 0.4s ease;
+}
+
+#mainNav a:hover, .fa:hover, #design a:hover, #development a:hover, #contactContent a:hover {
+	color: #000;
+	border-bottom: 2px solid #89BCB3;
+	transition: border 0.4s ease;
+}
+
+.fa, #design a, #development a, #contactContent a {
+	border-bottom: 0px solid #89BCB3;
+	color: #000;
+	text-decoration: none;
+	transition: border 0.4s ease;
+}
+
+#home {
+	background:#FBC75D;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+#homeContent {
+    width: 50%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 17%;
+}
+
+#aboutContent {
+	margin-top: 8em;
+	padding-right: 10em;
+	line-height: 2;
+    width: 70%;
+}
+ #aboutContent li {
+	list-style: none;
+	line-height: 2em;
+	padding-left: 1em;
+ }
+
+#development, #design {
+	margin-top: 8em;
+}
+
+#development h3, #design h3{
+	position: relative;
+	z-index: 1;
+}
+
+#development h3:after {
+	content:"";
+	position: absolute;
+	width: 8.6em;
+	height:1em;
+	background-color:#FBC75D;
+	left:-0.4em;
+	bottom: 2em;
+	z-index:-1;
+}
+
+#design h3:after {
+	content:"";
+	position: absolute;
+	width: 5em;
+	height:1em;
+	background-color:#FBC75D;
+	left:-0.4em;
+	bottom: 2em;
+	z-index:-1;
+}
+
+#development ul, #design ul {
+	list-style: none;
+	padding-top: 20px;
+}
+
+#development li, #design li {
+	display: inline;
+	padding-right: 1em;
+}
+
+#portfolioContent {
+	width: 80%;
+}
+
+#contactContent {
+	margin-top: 16em;
+	padding-right: 8.5em;
+    width: 70%;
+    line-height: 2.5;
+}
+
+#social h3, #email h3{
+	position: relative;
+	z-index: 1;
+}
+
+#social h3:after {
+	content:"";
+	position: absolute;
+	width: 4.8em;
+	height:1em;
+	background-color:#FBC75D;
+	left:-0.4em;
+	bottom: 2.86em;
+	z-index:-1;
+}
+
+#email h3:after {
+	content:"";
+	position: absolute;
+	width: 4.4em;
+	height:1em;
+	background-color:#FBC75D;
+	left:-0.4em;
+	bottom: 2.86em;
+	z-index:-1;
+}
+
+#contactContent ul{
+	list-style: none;
+}
+
+#contactContent li{
+	display: inline;
+	padding-right: 1em;
+}
