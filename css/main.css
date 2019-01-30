@@ -3,9 +3,9 @@
 }
 
 html, body, #about, #portfolio, #contact, #home {
+	font-family: 'Roboto', sans-serif;
 	height: auto;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
 }
 
 #about, #portfolio, #contact, #home {
@@ -38,32 +38,32 @@ html, body, #about, #portfolio, #contact, #home {
 }
 
 header {
+	background: transparent; 
+	height: 40px; 
+	left:0px;
 	position: fixed;
 	top:0px;
-	left:0px;
-	background:transparent; 
-	height: 40px; 
 	width: 100%;
 }
 
 #mainNav {
-    float: right;
+	float: right;
+	margin-right: 1em;
 	margin-top: 15px;
     word-spacing:20px;
-	margin-right: 1em;
 }
 
 #mainNav a {
-	font-weight: 600;
 	border-bottom: 0px solid #89BCB3;
 	color: #000;
+	font-weight: 600;
 	text-decoration: none;
 	transition: border 0.4s ease;
 }
 
 #mainNav a:hover, .fa:hover, #design a:hover, #development a:hover, #contactContent a:hover {
-	color: #000;
 	border-bottom: 2px solid #89BCB3;
+	color: #000;
 	transition: border 0.4s ease;
 }
 
@@ -80,35 +80,35 @@ header {
 }
 
 #homeContent {
-    width: 50%;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 17%;
+	line-height: 1.5;
+	margin-top: 17%;
+	text-align: center;
+	width: 50%;
 }
 
 #homeContent a {
-	text-decoration: none;
-	color: #010101;
 	border-bottom: 2px solid #89BCB3;
+	color: #010101;
+	text-decoration: none;
 	transition: background-color 0.4s ease;
 }
 
 #homeContent a:hover {
-	text-decoration: none;
-	color: #010101;
 	background-color: #89BCB3;
+	color: #010101;
+	text-decoration: none;
 	transition: background-color 0.4s ease;
 }
 
 #aboutContent {
+	line-height: 2;
 	margin-top: 8em;
 	padding-right: 10em;
-	line-height: 2;
     width: 70%;
 }
  #aboutContent li {
-	list-style: none;
 	line-height: 2em;
+	list-style: none;
 	padding-left: 1em;
  }
 
@@ -122,24 +122,24 @@ header {
 }
 
 #development h3:after {
+	background-color:#FBC75D;
+	bottom: 2em;
 	content:"";
+	height:1em;
+	left:-0.4em;
 	position: absolute;
 	width: 8.6em;
-	height:1em;
-	background-color:#FBC75D;
-	left:-0.4em;
-	bottom: 2em;
 	z-index:-1;
 }
 
 #design h3:after {
+	background-color:#FBC75D;
+	bottom: 2em;
 	content:"";
+	height:1em;
+	left:-0.4em;
 	position: absolute;
 	width: 5em;
-	height:1em;
-	background-color:#FBC75D;
-	left:-0.4em;
-	bottom: 2em;
 	z-index:-1;
 }
 
@@ -158,10 +158,10 @@ header {
 }
 
 #contactContent {
+	line-height: 2.5;
 	margin-top: 16em;
 	padding-right: 8.5em;
     width: 70%;
-    line-height: 2.5;
 }
 
 #social h3, #email h3{
@@ -170,24 +170,24 @@ header {
 }
 
 #social h3:after {
+	background-color:#FBC75D;
+	bottom: 2.86em;
 	content:"";
+	height:1em;
+	left:-0.4em;
 	position: absolute;
 	width: 4.8em;
-	height:1em;
-	background-color:#FBC75D;
-	left:-0.4em;
-	bottom: 2.86em;
 	z-index:-1;
 }
 
 #email h3:after {
+	background-color:#FBC75D;
+	bottom: 2.86em;
 	content:"";
+	height:1em;
+	left:-0.4em;
 	position: absolute;
 	width: 4.4em;
-	height:1em;
-	background-color:#FBC75D;
-	left:-0.4em;
-	bottom: 2.86em;
 	z-index:-1;
 }
 
