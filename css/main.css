@@ -47,7 +47,8 @@ header {
 	float: right;
 	margin-right: 1em;
 	margin-top: 15px;
-    word-spacing:20px;
+	word-spacing: 20px;
+
 }
 
 #mainNav a {
@@ -55,6 +56,13 @@ header {
 	font-weight: 600;
 	text-decoration: none;
 	transition: border 0.4s ease;
+}
+
+header img {
+	float: left;
+	margin-left: 1em;
+	margin-top: 10px;
+	width: 1.8em;
 }
 
 #mainNav a:hover, #design a:hover, #development a:hover, #email a:hover {
