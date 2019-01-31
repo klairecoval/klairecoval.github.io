@@ -87,17 +87,17 @@ header {
 }
 
 #homeContent a {
-	border-bottom: 2px solid #89BCB3;
+	border-bottom: 2px solid #FFFFFF;
 	color: #010101;
 	text-decoration: none;
-	transition: background-color 0.4s ease;
+	transition: border-bottom 0.4s ease;
 }
 
 #homeContent a:hover {
-	background-color: #89BCB3;
+	border-bottom: 2px solid #89BCB3;
 	color: #010101;
 	text-decoration: none;
-	transition: background-color 0.4s ease;
+	transition: border-bottom 0.4s ease;
 }
 
 #aboutContent {
@@ -114,33 +114,6 @@ header {
 
 #development, #design {
 	margin-top: 8em;
-}
-
-#development h3, #design h3{
-	position: relative;
-	z-index: 1;
-}
-
-#development h3:after {
-	background-color:#FBC75D;
-	bottom: 2em;
-	content:"";
-	height:1em;
-	left:-0.4em;
-	position: absolute;
-	width: 8.6em;
-	z-index:-1;
-}
-
-#design h3:after {
-	background-color:#FBC75D;
-	bottom: 2em;
-	content:"";
-	height:1em;
-	left:-0.4em;
-	position: absolute;
-	width: 5em;
-	z-index:-1;
 }
 
 #development ul, #design ul {
@@ -162,33 +135,6 @@ header {
 	margin-top: 16em;
 	padding-right: 8.5em;
     width: 70%;
-}
-
-#social h3, #email h3{
-	position: relative;
-	z-index: 1;
-}
-
-#social h3:after {
-	background-color:#FBC75D;
-	bottom: 2.86em;
-	content:"";
-	height:1em;
-	left:-0.4em;
-	position: absolute;
-	width: 4.8em;
-	z-index:-1;
-}
-
-#email h3:after {
-	background-color:#FBC75D;
-	bottom: 2.86em;
-	content:"";
-	height:1em;
-	left:-0.4em;
-	position: absolute;
-	width: 4.4em;
-	z-index:-1;
 }
 
 #contactContent ul{
