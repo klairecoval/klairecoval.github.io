@@ -1,8 +1,10 @@
 * {
+	color: #010101;
     margin: 0 auto;
 }
 
 html, body, #about, #portfolio, #contact, #home {
+	background-color: #fffced;
 	font-family: 'Roboto', sans-serif;
 	height: auto;
     min-height: 100vh;
@@ -10,10 +12,6 @@ html, body, #about, #portfolio, #contact, #home {
 
 #about, #portfolio, #contact, #home {
 	padding-top: 2em;
-}
-
-#about, #portfolio, #contact {
-    background-color:#fff;
 }
 
 #about, #portfolio {
@@ -32,7 +30,6 @@ html, body, #about, #portfolio, #contact, #home {
 }
 
 .fa {
-	color: #010101;
 	padding-left: 8px;
 	padding-right: 8px;
 }
@@ -54,28 +51,25 @@ header {
 }
 
 #mainNav a {
-	border-bottom: 0px solid #89BCB3;
-	color: #000;
+	border-bottom: 0px solid #fe7e52;
 	font-weight: 600;
 	text-decoration: none;
 	transition: border 0.4s ease;
 }
 
-#mainNav a:hover, .fa:hover, #design a:hover, #development a:hover, #contactContent a:hover {
-	border-bottom: 2px solid #89BCB3;
-	color: #000;
+#mainNav a:hover, #design a:hover, #development a:hover, #email a:hover {
+	border-bottom: 2px solid #fe7e52;
 	transition: border 0.4s ease;
 }
 
 .fa, #design a, #development a, #contactContent a {
-	border-bottom: 0px solid #89BCB3;
-	color: #000;
+	border-bottom: 0px solid #fe7e52;
 	text-decoration: none;
 	transition: border 0.4s ease;
 }
 
 #home {
-	background:#FBC75D;
+	background:#ffd371;
     font-family: 'Proxima Nova', Georgia, sans-serif;
 }
 
@@ -87,15 +81,13 @@ header {
 }
 
 #homeContent a {
-	border-bottom: 2px solid #FFFFFF;
-	color: #010101;
+	border-bottom: 2px solid #FFF;
 	text-decoration: none;
 	transition: border-bottom 0.4s ease;
 }
 
 #homeContent a:hover {
-	border-bottom: 2px solid #89BCB3;
-	color: #010101;
+	border-bottom: 2px solid #fe7e52;
 	text-decoration: none;
 	transition: border-bottom 0.4s ease;
 }
@@ -144,4 +136,14 @@ header {
 #contactContent li{
 	display: inline;
 	padding-right: 1em;
+}
+
+#social .fa{
+	color: #010101;
+	transition: color 0.4s ease;
+}
+
+#social .fa:hover{
+	color: #fe7e52;
+	transition: color 0.4s ease;
 }
