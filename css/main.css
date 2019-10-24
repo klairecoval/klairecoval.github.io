@@ -3,18 +3,19 @@
     margin: 0 auto;
 }
 
-html, body, #about, #portfolio, #contact, #home {
-	background-color: #fffced;
+html, body, #about, #work, #contact, #home {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background-color: #fffced;
 	height: auto;
     min-height: 100vh;
 }
 
-#about, #portfolio, #contact, #home {
+#about, #work, #contact, #home {
 	padding-top: 2em;
 }
 
-#about, #portfolio {
+#about, #work {
 	border-bottom: 1px dashed black;
 	width: 90%;
 }
@@ -34,6 +35,10 @@ html, body, #about, #portfolio, #contact, #home {
 	padding-right: 8px;
 }
 
+.introContent {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
 header {
 	background: transparent; 
 	height: 40px; 
@@ -48,12 +53,12 @@ header {
 	margin-right: 1em;
 	margin-top: 15px;
 	word-spacing: 20px;
-
 }
 
 #mainNav a {
 	border-bottom: 0px solid #fe7e52;
-	font-weight: 600;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
 	text-decoration: none;
 	transition: border 0.4s ease;
 }
@@ -76,16 +81,22 @@ header img {
 	transition: border 0.4s ease;
 }
 
+.sectionTitle {
+	border-bottom: 2px solid #ffd371;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
 #home {
 	background:#ffd371;
-    font-family: 'Proxima Nova', Georgia, sans-serif;
 }
 
 #homeContent {
 	line-height: 1.5;
 	margin-top: 17%;
-	text-align: center;
 	width: 50%;
+	float: left;
+	padding-left: 10rem;
 }
 
 #homeContent a {
@@ -106,6 +117,7 @@ header img {
 	padding-right: 10em;
     width: 70%;
 }
+
  #aboutContent li {
 	line-height: 2em;
 	list-style: none;
@@ -114,6 +126,8 @@ header img {
 
 #development, #design {
 	margin-top: 8em;
+	width: 45%;
+	float: left;
 }
 
 #development ul, #design ul {
@@ -122,11 +136,11 @@ header img {
 }
 
 #development li, #design li {
-	display: inline;
 	padding-right: 1em;
+	line-height: 2rem;
 }
 
-#portfolioContent {
+#workContent {
 	width: 80%;
 }
 
