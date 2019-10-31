@@ -124,6 +124,11 @@ header img {
 	padding-left: 1em;
  }
 
+ #self {
+	 float: right;
+	 margin-top: -15rem;
+ }
+
 #development, #design {
 	margin-top: 8em;
 	width: 45%;
