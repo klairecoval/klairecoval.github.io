@@ -3,8 +3,9 @@
     margin: 0 auto;
 }
 
-html, body, #about, #work, #contact, #home {
-	font-family: 'Roboto', sans-serif;
+html, body, #about, #work, #home {
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	background-color: #fffced;
 	height: auto;
@@ -21,13 +22,10 @@ html, body, #about, #work, #contact, #home {
 }
 
 #contact {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background-color: #fffced;
 	width: 90%;
-}
-
-#design a, #development a, #contactContent a {
-	color: #010101;
-	text-decoration: none;
-	transition: color 0.4s ease;
 }
 
 .fa {
@@ -36,9 +34,16 @@ html, body, #about, #work, #contact, #home {
 }
 
 .introContent {
-	font-family: 'Nunito', sans-serif;
-	font-weight: 300;
+	/* font-family: 'Nunito', sans-serif; */
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
 }
+
+.subIntroContent {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
 header {
 	background: transparent; 
 	height: 40px; 
@@ -57,10 +62,11 @@ header {
 
 #mainNav a {
 	border-bottom: 0px solid #fe7e52;
-	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Nunito', sans-serif; */
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	text-decoration: none;
-	transition: border 0.4s ease;
+	transition: border 0.2s ease;
 }
 
 header img {
@@ -70,20 +76,21 @@ header img {
 	width: 1.8em;
 }
 
-#mainNav a:hover, #design a:hover, #development a:hover, #email a:hover {
+#mainNav a:hover, #design a:hover, #development a:hover, #email:hover {
 	border-bottom: 2px solid #fe7e52;
-	transition: border 0.4s ease;
+	transition: border 0.2s ease;
 }
 
-.fa, #design a, #development a, #contactContent a {
+.fa, #design a, #development a, #email {
 	border-bottom: 0px solid #fe7e52;
 	text-decoration: none;
-	transition: border 0.4s ease;
+	transition: border 0.2s ease;
 }
 
 .sectionTitle {
 	border-bottom: 2px solid #ffd371;
-	font-family: 'Nunito', sans-serif;
+	/* font-family: 'Nunito', sans-serif; */
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
 
@@ -102,13 +109,13 @@ header img {
 #homeContent a {
 	border-bottom: 2px solid #FFF;
 	text-decoration: none;
-	transition: border-bottom 0.4s ease;
+	transition: border-bottom 0.2s ease;
 }
 
 #homeContent a:hover {
 	border-bottom: 2px solid #fe7e52;
 	text-decoration: none;
-	transition: border-bottom 0.4s ease;
+	transition: border-bottom 0.2s ease;
 }
 
 #aboutContent {
@@ -149,28 +156,24 @@ header img {
 	width: 80%;
 }
 
-#contactContent {
-	line-height: 2.5;
-	margin-top: 16em;
-	padding-right: 8.5em;
-    width: 70%;
+footer {
+	height: 3rem;
 }
 
-#contactContent ul{
-	list-style: none;
+footer a {
+	text-decoration: none;
 }
 
-#contactContent li{
-	display: inline;
-	padding-right: 1em;
-}
-
-#social .fa{
+#contact .fa {
 	color: #010101;
-	transition: color 0.4s ease;
+	transition: color 0.2s ease;
 }
 
-#social .fa:hover{
+#contact .fa:hover {
 	color: #fe7e52;
-	transition: color 0.4s ease;
+	transition: color 0.2s ease;
+}
+
+#email {
+	float: right;
 }

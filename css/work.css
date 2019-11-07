@@ -5,7 +5,9 @@
 
 body {
     background-color: #fffced;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
     margin-top: 2em;
     width: 64%;
 }
@@ -27,14 +29,18 @@ header img {
 }
 
 h1 {
-	font-family: 'Nunito', sans-serif;
-    font-weight: 700;
+	/* font-family: 'Nunito', sans-serif;
+    font-weight: 700; */
+    font-family: 'Playfair Display', serif;
+	font-weight: 700;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700; 
+    /* font-family: 'Nunito', sans-serif;
+    font-weight: 700;  */
+    font-family: 'Playfair Display', serif;
+	font-weight: 700;
 }
 
 a {
