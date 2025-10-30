@@ -44,17 +44,101 @@ h3 {
 }
 
 a {
-    border-bottom: 2px solid #fe7e52;
+    color: inherit;
     text-decoration: none;
-	transition: background-color 0.4s ease;
+    border-bottom: 2px solid #ffd371;
+	transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
-    background-color: #fe7e52;
-    text-decoration: none;
-	transition: background-color 0.4s ease;
+    border-bottom-color: #fe7e52;
+    color: #010101;
+	transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 ul {
     list-style: none;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+}
+
+h3, h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.8;
+    margin: 0.75rem 0 1.5rem;
+}
+
+/* Image presentation */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* Default block layout for single images */
+img[style*="100%"],
+img[style*="80%"],
+img[style*="64%"] {
+    display: block;
+    margin: 1rem 0 2rem;
+}
+
+/* Allow 45-48% width images to sit side-by-side gracefully */
+img[style*="45%"],
+img[style*="48%"] {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5rem 2% 1.5rem 0;
+}
+img[style*="45%"]:nth-of-type(2n),
+img[style*="48%"]:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+/* Buttons (for external links like GitHub, Live Demo) */
+.button {
+    display: inline-block;
+    padding: 0.55rem 0.9rem;
+    border: 2px solid #ffd371;
+    border-radius: 999px;
+    margin-right: 0.5rem;
+}
+.button:hover {
+    border-color: #fe7e52;
+}
+
+/* Give content some breathing room under fixed header */
+body { 
+    padding-top: 3.5rem; 
+}
+
+/* Footer spacing safeguard (if any links at bottom) */
+body > a:last-child {
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    body {
+        width: 86%;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 { margin-top: 3.5rem; }
+    img[style*="45%"],
+    img[style*="48%"] {
+        width: 100% !important;
+        display: block;
+        margin: 0.75rem 0 1.25rem 0;
+    }
 }
