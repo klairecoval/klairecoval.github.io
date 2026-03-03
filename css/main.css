@@ -99,11 +99,12 @@ header img {
 }
 
 #homeContent {
-	line-height: 1.5;
+	line-height: 1.6;
 	margin-top: 17%;
 	width: 50%;
 	float: left;
-	padding-left: 10rem;
+	padding-left: 6rem;
+	/* max-width: 42rem; */
 }
 
 #homeContent a {
@@ -119,22 +120,43 @@ header img {
 }
 
 #aboutContent {
-	line-height: 2;
-	margin-top: 8em;
-	padding-right: 10em;
-    width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: 2rem;
+	line-height: 1.8;
+	margin-top: 6em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 4em;
+	padding-left: 4em;
 }
 
- #aboutContent li {
-	line-height: 2em;
-	list-style: none;
-	padding-left: 1em;
- }
+.aboutHeading {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
 
- #self {
-	 float: right;
-	 margin-top: -10rem;
- }
+.aboutText {
+	flex: 1;
+	padding-left: 2rem;
+	padding-right: 10rem;
+}
+
+.aboutText p {
+	margin-bottom: 1.25rem;
+}
+
+.aboutText p:last-child {
+	margin-bottom: 0;
+}
+
+#self {
+	width: 13rem;
+	flex-shrink: 0;
+}
 
 #development, #design {
 	margin-top: 8em;
@@ -176,4 +198,24 @@ footer a {
 
 #email {
 	float: right;
+}
+
+/* Responsive: smaller screens */
+@media (max-width: 768px) {
+	#homeContent {
+		padding-left: 2rem;
+		width: 90%;
+	}
+	
+	#aboutContent {
+		padding-right: 1em;
+	}
+	
+	.aboutText {
+		min-width: 100%;
+	}
+	
+	#self {
+		width: 10rem;
+	}
 }
